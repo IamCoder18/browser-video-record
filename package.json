@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/fluent-ffmpeg": "^2.1.27",
+    "cli-progress": "^3.12.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "puppeteer": "^24.8.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-stream": "^3.0.20",
+    "typescript": "^5.8.3"
+  },
+  "name": "geometryvideorecord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node --env-file=.env ./dist/index.js",
+    "test": "tsc && node --env-file=.iamcoder18env ./dist/index.js",
+    "signIn": "tsc && node --env-file=.env ./dist/signIn.js",
+    "signInTest": "tsc && node --env-file=.iamcoder18env ./dist/signIn.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6"
+  }
+}

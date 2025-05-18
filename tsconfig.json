@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2022", // Or a newer version like ES2022
+      "module": "NodeNext", // Use Node.js's modern module system
+      "moduleResolution": "NodeNext", // Use Node.js's modern module resolution
+      "outDir": "./dist", // Your specified output directory
+    //   "rootDir": "./src", // Assuming your TS files are in 'src'
+      "strict": true,
+      "esModuleInterop": true, // Allows default imports from CommonJS modules
+      "skipLibCheck": true, // Skip type checking of declaration files (can speed up compilation)
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["./**/*"], // Include all TS files in the 'src' directory
+    "exclude": ["node_modules"]
+  }

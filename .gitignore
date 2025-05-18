@@ -1,0 +1,10 @@
+.env
+UserDataDirs
+Recordings
+RecordingsFinal
+Logs
+dist
+node_modules
+/tmp
+/DS_Store
+/.DS_Store
