@@ -89,7 +89,7 @@ Most configurations are managed in `src/config.ts`:
 2.  **Configure Google credentials:** Add your `googleusername` and `googlepassword` to a `.env` file in the project root.
 3.  **Sign in:** Execute `npm run signin`. Complete any 2-Factor Authentication prompts if necessary.
 4.  **Login data saved:** The browser will automatically close after successfully saving your login session.
-5.  **Define videos to record:** List the videos you want to record in the `/src/config.ts` file.
+5.  **Define videos to record:** List the videos you want to record in the `/src/targets.ts` file by copying `/src/targets.example.ts`.
 6.  **Start recording:** Run `npm run dev`.
 
 ## Project Structure

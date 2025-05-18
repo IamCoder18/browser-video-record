@@ -4,7 +4,8 @@ import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 
 import { recordVideo } from "./recordVideo";
-import { targets, logDirectory } from "./config";
+import { logDirectory } from "./config"
+import { targets } from "./targets";
 import { Logger } from "./logger";
 
 
