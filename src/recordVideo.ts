@@ -1,7 +1,8 @@
 import { PuppeteerExtra } from "puppeteer-extra";
 import * as path from "node:path";
 import { Logger } from "./logger"; // Added logDirectory
-import { Target, recordingDirectory, videoPlayerSelector, logDirectory } from "./config";
+import { recordingDirectory, videoPlayerSelector, logDirectory } from "./config";
+import { Target } from "./targets";
 import { launchConfiguredBrowser, closeBrowser } from "./browserManager";
 import { setupNewPage, navigateToUrl, prepareVideoPlayer, playVideo } from "./pageUtils";
 import { startMediaStreamRecording, stopMediaStreamRecording } from "./streamRecorder";
